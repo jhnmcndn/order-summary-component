@@ -5,7 +5,8 @@
           box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-size: 62.5%;
 }
 
@@ -14,7 +15,7 @@ body {
   background-color: #e0e8ff;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,7 +25,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 15em;
+  padding: 15em 0;
+  position: relative;
 }
 
 ul li {
@@ -181,6 +183,22 @@ ul li {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+}
+
+.attribution {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1319px) {
+  .attribution {
+    top: 720px;
+    left: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */

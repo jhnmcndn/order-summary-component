@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-html,body {
+html,
+body {
   font-size: 62.5%;
 }
 
@@ -15,11 +16,12 @@ body {
   background-color: $paleBlue;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 15em;
+  padding: 15em 0;
+  position: relative;
 }
 
 ul li {
