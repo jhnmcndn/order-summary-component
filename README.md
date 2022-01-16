@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [LINK](https://www.frontendmentor.io/profile/jhnmcndn)
-- Live Site URL: [LINK](https://order-summary-card-project.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/profile/jhnmcndn)
+- Live Site URL: [Website](https://order-summary-card-project.netlify.app/)
 
 ## My process
 
